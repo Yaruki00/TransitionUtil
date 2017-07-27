@@ -4,4 +4,4 @@ matrix:
     - osx_image: xcode8.3
 
 script:
-  - xctool -project TransitionUtil.xcodeproj -scheme TransitionUtil -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xcodebuild -project TransitionUtil.xcodeproj -scheme TransitionUtil -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
