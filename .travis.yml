@@ -1,4 +1,4 @@
 language: objective-c
 
 script:
-  - xctool TransitionUtil.xcodeproj -scheme TransitionUtil -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool -project TransitionUtil.xcodeproj -scheme TransitionUtil -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
